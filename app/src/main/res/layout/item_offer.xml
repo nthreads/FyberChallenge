@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/offerCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:cardMaxElevation="4dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                style="@style/SubHeading"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvTeaser"
+                style="@style/Content"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/tvPayoutLabel"
+                    style="@style/Content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/lbl_payout"
+                    android:textColor="@color/darkGrey" />
+
+                <TextView
+                    android:id="@+id/tvPayout"
+                    style="@style/Content"
+                    android:text="$120"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/thumbnailLayout"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/ivThumbnail"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/desc_thumbnail"
+                android:scaleType="centerCrop"
+                android:src="@drawable/stub_image" />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:indeterminate="false"
+                android:max="100" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,35 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Fyber Challenge</string>
+
+    <string name="lbl_retry">RETRY</string>
+    <string name="lbl_submit">Submit</string>
+
+    <string name="toast_task_cancelled">Task has been cancelled.</string>
+    <string name="toast_time_out">Connection Timeout, Please Try Again</string>
+    <string name="toast_network_error">Network Error, Please Check Your Network Connection</string>
+    <string name="toast_something_wrong">Something went wrong.</string>
+
+    <string name="lbl_gaid">Google Advertising Identifier</string>
+
+    <string name="err_gaid_io_exception">IO Exception</string>
+    <string name="err_gaid_gps_not_available">Google Play Service Not Available Exception</string>
+    <string name="err_gaid_gps_repairable">Google Play Services Repairable Exception</string>
+
+    <string name="hint_uid">UId</string>
+    <string name="hint_api_key">API Key</string>
+    <string name="hint_app_id">App ID</string>
+    <string name="hint_pub">Pub0</string>
+
+
+    <string name="err_msg">Enter valid <xliff:g id="message">%1$s</xliff:g></string>
+    <string name="toast_loading_offers">Loading offers, please wait...</string>
+    <string name="app_name_splash">Fyber\nChallenge</string>
+    <string name="lbl_payout">Payout</string>
+    <string name="desc_thumbnail">Thumbnail</string>
+    <string name="challenge">Challenge</string>
+    <string name="offers">Offers</string>
+    <string name="msg_no_offer">No offers</string>
+    <string name="lbl_get_offers">Get Offers</string>
+    <string name="err_invalid_hash">An invalid or missing hash key for this appid was given as a parameter in the request.</string>
+
+</resources>

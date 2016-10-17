@@ -45,3 +45,19 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+.idea/copyright/profiles_settings.xml
+*.properties
+.gradle/2.14.1/taskArtifacts/cache.properties.lock
+.gradle/2.14.1/taskArtifacts/fileHashes.bin
+*.bin
+.idea/copyright/Nzee_Copyright.xml
+.idea/gradle.xml
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/libraries/espresso_idling_resource_2_2_2.xml
+.idea/libraries/hamcrest_integration_1_3.xml
+.idea/libraries/animated_vector_drawable_24_2_1.xml
+.idea/workspace.xml
+.idea/libraries/support_fragment_24_2_1.xml

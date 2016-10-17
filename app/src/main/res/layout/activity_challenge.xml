@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_challenge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fyber.challenge.activity.ChallengeActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilUid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/etUid"
+            style="@style/EditTextStyle"
+            android:hint="@string/hint_uid" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilApiKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tilUid">
+
+        <EditText
+            android:id="@+id/etApiKey"
+            style="@style/EditTextStyle"
+            android:hint="@string/hint_api_key" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilAppId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tilApiKey">
+
+        <EditText
+            android:id="@+id/etAppId"
+            style="@style/EditTextStyle"
+            android:hint="@string/hint_app_id" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilPub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tilAppId">
+
+        <EditText
+            android:id="@+id/etPub"
+            style="@style/EditTextStyle"
+            android:hint="@string/hint_pub"
+            android:singleLine="false" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnGetOffers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tilPub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:onClick="btnGetOffersOnClick"
+        android:text="@string/lbl_get_offers" />
+
+</RelativeLayout>
